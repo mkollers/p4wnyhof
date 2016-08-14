@@ -15,7 +15,7 @@
         } else {
             for (var i = 0; i < 7; i++) {
                 if (i > 0) {
-                    now.setTime(now.getTime() + 86400000);                    
+                    now.setTime(now.getTime() + 86400000);
                 }
                 var day = now.getDay();
                 // if today is the next stream
