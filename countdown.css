@@ -43,7 +43,7 @@
   color: #f8f8f8;
   display: block;
   font-family: 'Oswald', sans-serif;
-  font-size: 2em;
+  font-size: 40px!important;
   line-height: 2.4em;
   overflow: hidden;
   position: absolute;
@@ -168,4 +168,8 @@
     font-size: 0.8em;
     top: 72px;
   }
+}
+
+#getting-started .label {
+    display: none;
 }
