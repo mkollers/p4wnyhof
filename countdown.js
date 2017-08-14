@@ -1,7 +1,7 @@
 (function () {
     var streamingDays = [1, 2, 3, 4, 5]; // monday - friday
-    var streamingStart = 8;
-    var streamingEnd = 16; // at 16:00 the timer will be displayed again
+    var streamingStart = 9;
+    var streamingEnd = 17; // at 16:00 the timer will be displayed again
     var online = true;
     $(window).on('load', function () {
         checkForOnline();
